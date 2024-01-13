@@ -10,6 +10,12 @@
 
 * **Result of trading simulation:**
 
+![Example Image](image/README/paper_account_profit_1.png)
+
+![Example Image](image/README/paper_account_profit_2.png)
+
+![Example Image](image/README/paper_account_profit_3.png)
+
 * **Examples of GUI for history of orders (all orders and filled orders here):**
 
 ![Example Image](Plots/all_orders_last_run.png)
