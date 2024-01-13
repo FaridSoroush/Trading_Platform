@@ -2,11 +2,11 @@
 
 * **Main components of the system:**
 
-![1705182855841](image/README/1705182855841.png)
+<img src="image/README/1705182855841.png" alt="Example Image" width="500"/>
 
 * **Examples of technical trading indicators:**
 
-![Example Image](Plots/indicators.png)
+<img src="image/README/indicators.png" alt="Example Image" width="500"/>
 
 * **Example of modeling result different time frames:**
 
