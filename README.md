@@ -27,19 +27,17 @@
 
 * **Examples of GUI for history of orders (all orders and filled orders here):**
 
-![Example Image](image/README/all_orders_last_run.png)
+<img src="image/README/all_orders_last_run.png" alt="Example Image" width="500"/>
 
-![Example Image](image/README/filled_orders_short_term.png)
+<img src="image/README/filled_orders_short_term.png" alt="Example Image" width="500"/>
 
 * **Example of GUI for live trading:**
 
-![Example Image](image/README/GUI.png)
+<img src="image/README/GUI.png" alt="Example Image" width="500"/>
 
-![Example Image](image/README/GUI1.png)
+<img src="image/README/GUI1.png" alt="Example Image" width="500"/>
 
-![Example Image](image/README/GUI3.png)
-
-
+<img src="image/README/GUI3.png" alt="Example Image" width="500"/>
 
 # Data
 
