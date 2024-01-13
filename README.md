@@ -16,8 +16,6 @@
 
 * **Result of trading simulation:**
 
-<img src="image/README/paper_account_profit_1.png" alt="Example Image" width="850"/>
-
 <img src="image/README/paper_account_profit_2.png" alt="Example Image" width="850"/>
 
 <img src="image/README/paper_account_profit_3.png" alt="Example Image" width="850"/>
