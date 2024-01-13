@@ -2,7 +2,7 @@
 
 * **Main components of the system:**
 
-<img src="image/README/1705182855841.png" alt="Example Image" width="750"/>
+<img src="image/README/1705182855841.png" alt="Example Image" width="850"/>
 
 * **Examples of technical trading indicators:**
 
