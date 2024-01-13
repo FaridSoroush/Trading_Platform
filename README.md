@@ -1,6 +1,8 @@
 # Trading-Software
 <img width="1298" alt="image" src="https://github.com/FaridSoroush/Trading-Software/assets/45682607/b11a8aa1-d32c-472a-929a-fbe583a44b83">
 
+https://github.com/FaridSoroush/Trading-Platform/blob/main/paper%20account%20profit%202.png
+
 # Data
  - BTC, USDT (1:1 with USD)
  - 6 years of one-every-minute datapoints from Binance
