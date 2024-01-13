@@ -1,0 +1,5 @@
+bokeh 3.1.1 https://github.com/bokeh/bokeh
+pyzmq 25.1.0 https://github.com/zeromq/pyzmq
+gmpy2 2.1.2 https://github.com/aleaxit/gmpy
+certifi 2023.5.7 https://github.com/certifi/python-certifi
+docutils 0.15.2 https://github.com/docutils/docutils

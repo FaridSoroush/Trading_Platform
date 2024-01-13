@@ -1,0 +1,7 @@
+channels:
+  - https://aws-ml-conda-preview.s3.us-west-2.amazonaws.com
+  - conda-forge
+  - nvidia/label/cuda-11.8.0
+  - pytorch
+auto_update_conda: false
+channel_priority: strict

@@ -1,0 +1,305 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 ubuntu@ip-172-31-47-192:~$ source activate pytorch\
+(pytorch) ubuntu@ip-172-31-47-192:~$ ls\
+BTCUSDT6Y1MKline.csv                 LINUX_PACKAGES_LIST           Train_Evaluate_Test_AWS.py\
+BUILD_FROM_SOURCE_PACKAGES_LICENCES  PYTHON_PACKAGES_LICENSES\
+LINUX_PACKAGES_LICENSES              THIRD_PARTY_SOURCE_CODE_URLS\
+(pytorch) ubuntu@ip-172-31-47-192:~$ python  Train_Evaluate_Test_AWS.py\
+Device: cuda\
+Importing and sorting: Done\
+/home/ubuntu/Train_Evaluate_Test_AWS.py:84: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /opt/conda/conda-bld/pytorch_1686274778240/work/torch/csrc/utils/tensor_new.cpp:245.)\
+  X = torch.tensor(X, dtype=torch.float32).to(device)\
+Instantiating the Transformer Model: Done\
+Training Transformer started:\
+Epoch: 1/100, Batch: 100/4885, Loss: 0.03888765722513199\
+Epoch: 1/100, Batch: 200/4885, Loss: 0.00495609175413847\
+Epoch: 1/100, Batch: 300/4885, Loss: 0.0033510662615299225\
+Epoch: 1/100, Batch: 400/4885, Loss: 0.002173670334741473\
+Epoch: 1/100, Batch: 500/4885, Loss: 0.001615462126210332\
+Epoch: 1/100, Batch: 600/4885, Loss: 0.001688685966655612\
+Epoch: 1/100, Batch: 700/4885, Loss: 0.002176630077883601\
+Epoch: 1/100, Batch: 800/4885, Loss: 0.0013645000290125608\
+Epoch: 1/100, Batch: 900/4885, Loss: 0.00110615324229002\
+Epoch: 1/100, Batch: 1000/4885, Loss: 0.0009447440970689058\
+Epoch: 1/100, Batch: 1100/4885, Loss: 0.0007837438024580479\
+Epoch: 1/100, Batch: 1200/4885, Loss: 0.0008588301716372371\
+Epoch: 1/100, Batch: 1300/4885, Loss: 0.0007800807943567634\
+Epoch: 1/100, Batch: 1400/4885, Loss: 0.0009250635048374534\
+Epoch: 1/100, Batch: 1500/4885, Loss: 0.00047074691974557936\
+Epoch: 1/100, Batch: 1600/4885, Loss: 0.0008267824305221438\
+Epoch: 1/100, Batch: 1700/4885, Loss: 0.0004475719470065087\
+Epoch: 1/100, Batch: 1800/4885, Loss: 0.003258174518123269\
+Epoch: 1/100, Batch: 1900/4885, Loss: 0.003010663902387023\
+Epoch: 1/100, Batch: 2000/4885, Loss: 0.0012685996480286121\
+Epoch: 1/100, Batch: 2100/4885, Loss: 0.0012427638284862041\
+Epoch: 1/100, Batch: 2200/4885, Loss: 0.000653808587230742\
+Epoch: 1/100, Batch: 2300/4885, Loss: 0.0006882903398945928\
+Epoch: 1/100, Batch: 2400/4885, Loss: 0.0007148017175495625\
+Epoch: 1/100, Batch: 2500/4885, Loss: 0.0007683807052671909\
+Epoch: 1/100, Batch: 2600/4885, Loss: 0.0013487616088241339\
+Epoch: 1/100, Batch: 2700/4885, Loss: 0.0005399702931754291\
+Epoch: 1/100, Batch: 2800/4885, Loss: 0.0007618623785674572\
+Epoch: 1/100, Batch: 2900/4885, Loss: 0.0005347062251530588\
+Epoch: 1/100, Batch: 3000/4885, Loss: 0.0005268582608550787\
+Epoch: 1/100, Batch: 3100/4885, Loss: 0.0005910502513870597\
+Epoch: 1/100, Batch: 3200/4885, Loss: 0.00040540884947404265\
+Epoch: 1/100, Batch: 3300/4885, Loss: 0.0005526969325728714\
+Epoch: 1/100, Batch: 3400/4885, Loss: 0.00048706791130825877\
+Epoch: 1/100, Batch: 3500/4885, Loss: 0.00025142193771898746\
+Epoch: 1/100, Batch: 3600/4885, Loss: 0.00041560723911970854\
+Epoch: 1/100, Batch: 3700/4885, Loss: 0.00038318103179335594\
+Epoch: 1/100, Batch: 3800/4885, Loss: 0.00043100991751998663\
+Epoch: 1/100, Batch: 3900/4885, Loss: 0.0004308992065489292\
+Epoch: 1/100, Batch: 4000/4885, Loss: 0.0006642050575464964\
+Epoch: 1/100, Batch: 4100/4885, Loss: 0.0003522375482134521\
+Epoch: 1/100, Batch: 4200/4885, Loss: 0.0003915360430255532\
+Epoch: 1/100, Batch: 4300/4885, Loss: 0.00037123734364286065\
+Epoch: 1/100, Batch: 4400/4885, Loss: 0.0005047215381637216\
+Epoch: 1/100, Batch: 4500/4885, Loss: 0.00039505871245637536\
+Epoch: 1/100, Batch: 4600/4885, Loss: 0.00041294656693935394\
+Epoch: 1/100, Batch: 4700/4885, Loss: 0.0003497995203360915\
+Epoch: 1/100, Batch: 4800/4885, Loss: 0.0003027742786798626\
+Epoch: 1/100, Average Loss: 0.0023394179065048576\
+Epoch: 2/100, Batch: 100/4885, Loss: 0.0003516794531606138\
+Epoch: 2/100, Batch: 200/4885, Loss: 0.0004788983496837318\
+Epoch: 2/100, Batch: 300/4885, Loss: 0.00039236358134076\
+Epoch: 2/100, Batch: 400/4885, Loss: 0.00041815274744294584\
+Epoch: 2/100, Batch: 500/4885, Loss: 0.004642167128622532\
+Epoch: 2/100, Batch: 600/4885, Loss: 0.0009373744251206517\
+Epoch: 2/100, Batch: 700/4885, Loss: 0.0005940836272202432\
+Epoch: 2/100, Batch: 800/4885, Loss: 0.00036926119355484843\
+Epoch: 2/100, Batch: 900/4885, Loss: 0.0006927540525794029\
+Epoch: 2/100, Batch: 1000/4885, Loss: 0.0004979031509719789\
+Epoch: 2/100, Batch: 1100/4885, Loss: 0.0005616158014163375\
+Epoch: 2/100, Batch: 1200/4885, Loss: 0.0004415621515363455\
+Epoch: 2/100, Batch: 1300/4885, Loss: 0.0003696220519486815\
+Epoch: 2/100, Batch: 1400/4885, Loss: 0.00047016923781484365\
+Epoch: 2/100, Batch: 1500/4885, Loss: 0.00040250353049486876\
+Epoch: 2/100, Batch: 1600/4885, Loss: 0.000469316728413105\
+Epoch: 2/100, Batch: 1700/4885, Loss: 0.0004228043253533542\
+Epoch: 2/100, Batch: 1800/4885, Loss: 0.0004479784984141588\
+Epoch: 2/100, Batch: 1900/4885, Loss: 0.00024633933207951486\
+Epoch: 2/100, Batch: 2000/4885, Loss: 0.00026716498541645706\
+Epoch: 2/100, Batch: 2100/4885, Loss: 0.0004011366982012987\
+Epoch: 2/100, Batch: 2200/4885, Loss: 0.00046914740232750773\
+Epoch: 2/100, Batch: 2300/4885, Loss: 0.0002603147295303643\
+Epoch: 2/100, Batch: 2400/4885, Loss: 0.0002664928906597197\
+Epoch: 2/100, Batch: 2500/4885, Loss: 0.00024428212782368064\
+Epoch: 2/100, Batch: 2600/4885, Loss: 0.00027194421272724867\
+Epoch: 2/100, Batch: 2700/4885, Loss: 0.0002154754474759102\
+Epoch: 2/100, Batch: 2800/4885, Loss: 0.0003432236553635448\
+Epoch: 2/100, Batch: 2900/4885, Loss: 0.00026365206576883793\
+Epoch: 2/100, Batch: 3000/4885, Loss: 0.0002443689154461026\
+Epoch: 2/100, Batch: 3100/4885, Loss: 0.00025117563200183213\
+Epoch: 2/100, Batch: 3200/4885, Loss: 0.0003851244691759348\
+Epoch: 2/100, Batch: 3300/4885, Loss: 0.0006058794679120183\
+Epoch: 2/100, Batch: 3400/4885, Loss: 0.0002930120099335909\
+Epoch: 2/100, Batch: 3500/4885, Loss: 0.0001838873140513897\
+Epoch: 2/100, Batch: 3600/4885, Loss: 0.0013914937153458595\
+Epoch: 2/100, Batch: 3700/4885, Loss: 0.0006799803813919425\
+Epoch: 2/100, Batch: 3800/4885, Loss: 0.0006919942097738385\
+Epoch: 2/100, Batch: 3900/4885, Loss: 0.0006116587901487947\
+Epoch: 2/100, Batch: 4000/4885, Loss: 0.0004520910151768476\
+Epoch: 2/100, Batch: 4100/4885, Loss: 0.00031699141254648566\
+Epoch: 2/100, Batch: 4200/4885, Loss: 0.00024157534062396735\
+Epoch: 2/100, Batch: 4300/4885, Loss: 0.00023724668426439166\
+Epoch: 2/100, Batch: 4400/4885, Loss: 0.0003112492267973721\
+^Z\
+[1]+  Stopped                 python Train_Evaluate_Test_AWS.py\
+(pytorch) ubuntu@ip-172-31-47-192:~$ python  Train_Evaluate_Test_AWS.py\
+Device: cuda\
+Importing and sorting: Done\
+/home/ubuntu/Train_Evaluate_Test_AWS.py:84: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /opt/conda/conda-bld/pytorch_1686274778240/work/torch/csrc/utils/tensor_new.cpp:245.)\
+  X = torch.tensor(X, dtype=torch.float32).to(device)\
+Instantiating the Transformer Model: Done\
+Training Transformer started:\
+Epoch: 1/100, Batch: 1000/2443, Loss: 0.0009529106901027262\
+Epoch: 1/100, Batch: 2000/2443, Loss: 0.000515479245223105\
+Epoch: 1/100, Average Loss: 0.005306420452721517\
+Epoch: 2/100, Batch: 1000/2443, Loss: 0.00034153202432207763\
+Epoch: 2/100, Batch: 2000/2443, Loss: 0.00016575894551351666\
+Epoch: 2/100, Average Loss: 0.00036709345720393484\
+Epoch: 3/100, Batch: 1000/2443, Loss: 0.0004931194707751274\
+Epoch: 3/100, Batch: 2000/2443, Loss: 0.00023843493545427918\
+Epoch: 3/100, Average Loss: 0.0003157780517975434\
+Epoch: 4/100, Batch: 1000/2443, Loss: 0.00015206277021206915\
+Epoch: 4/100, Batch: 2000/2443, Loss: 0.00013361137825995684\
+Epoch: 4/100, Average Loss: 0.0003567453359124423\
+Epoch: 5/100, Batch: 1000/2443, Loss: 0.00024630193365737796\
+Epoch: 5/100, Batch: 2000/2443, Loss: 0.00019528865232132375\
+Epoch: 5/100, Average Loss: 0.0003546898577829914\
+Epoch: 6/100, Batch: 1000/2443, Loss: 0.00020017617498524487\
+Epoch: 6/100, Batch: 2000/2443, Loss: 0.00013981579104438424\
+Epoch: 6/100, Average Loss: 0.00019264677114287415\
+Epoch: 7/100, Batch: 1000/2443, Loss: 0.00013178284280002117\
+Epoch: 7/100, Batch: 2000/2443, Loss: 0.00010781748278532177\
+Epoch: 7/100, Average Loss: 0.0001517787586002791\
+Epoch: 8/100, Batch: 1000/2443, Loss: 0.00017361767822876573\
+Epoch: 8/100, Batch: 2000/2443, Loss: 0.00038053386379033327\
+Epoch: 8/100, Average Loss: 0.0002687196283078666\
+Epoch: 9/100, Batch: 1000/2443, Loss: 0.00020157625840511173\
+Epoch: 9/100, Batch: 2000/2443, Loss: 0.00016349572979379445\
+Epoch: 9/100, Average Loss: 0.00018200876519561076\
+Epoch: 10/100, Batch: 1000/2443, Loss: 9.356368536828086e-05\
+Epoch: 10/100, Batch: 2000/2443, Loss: 7.922392978798598e-05\
+Epoch: 10/100, Average Loss: 0.00010777837164505418\
+Traceback (most recent call last):\
+  File "/home/ubuntu/Train_Evaluate_Test_AWS.py", line 151, in <module>\
+    if val_loss < best_val_loss:\
+NameError: name 'best_val_loss' is not defined. Did you mean: 'best_eval_loss'?\
+(pytorch) ubuntu@ip-172-31-47-192:~$ python  Train_Evaluate_Test_AWS.py\
+Device: cuda\
+Importing and sorting: Done\
+/home/ubuntu/Train_Evaluate_Test_AWS.py:84: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /opt/conda/conda-bld/pytorch_1686274778240/work/torch/csrc/utils/tensor_new.cpp:245.)\
+  X = torch.tensor(X, dtype=torch.float32).to(device)\
+Instantiating the Transformer Model: Done\
+Training Transformer started:\
+Epoch: 1/100, Batch: 1000/2443, Loss: 0.0007559573859907687\
+Epoch: 1/100, Batch: 2000/2443, Loss: 0.03313208371400833\
+Epoch: 1/100, Average Loss: 0.0047766644917768735\
+Epoch: 2/100, Batch: 1000/2443, Loss: 0.0005292049027048051\
+Epoch: 2/100, Batch: 2000/2443, Loss: 0.0002352135197725147\
+Epoch: 2/100, Average Loss: 0.0005154974826506171\
+Epoch: 3/100, Batch: 1000/2443, Loss: 0.01786022260785103\
+Epoch: 3/100, Batch: 2000/2443, Loss: 0.024124305695295334\
+Epoch: 3/100, Average Loss: 0.01454613233025453\
+Epoch: 4/100, Batch: 1000/2443, Loss: 0.0059484923258423805\
+Epoch: 4/100, Batch: 2000/2443, Loss: 0.03169324994087219\
+Epoch: 4/100, Average Loss: 0.021068879954800515\
+Epoch: 5/100, Batch: 1000/2443, Loss: 0.026528719812631607\
+Epoch: 5/100, Batch: 2000/2443, Loss: 0.02357686311006546\
+Epoch: 5/100, Average Loss: 0.023542177480101477\
+Epoch: 6/100, Batch: 1000/2443, Loss: 0.02760661393404007\
+Epoch: 6/100, Batch: 2000/2443, Loss: 0.02811594307422638\
+Epoch: 6/100, Average Loss: 0.02582940495848607\
+Epoch: 7/100, Batch: 1000/2443, Loss: 0.0279144998639822\
+Epoch: 7/100, Batch: 2000/2443, Loss: 0.024355759844183922\
+Epoch: 7/100, Average Loss: 0.029014046761011717\
+Epoch: 8/100, Batch: 1000/2443, Loss: 0.027458470314741135\
+Epoch: 8/100, Batch: 2000/2443, Loss: 0.03017176315188408\
+Epoch: 8/100, Average Loss: 0.029023560190232525\
+Epoch: 9/100, Batch: 1000/2443, Loss: 0.032008782029151917\
+Epoch: 9/100, Batch: 2000/2443, Loss: 0.031122412532567978\
+Epoch: 9/100, Average Loss: 0.028987867583078874\
+Epoch: 10/100, Batch: 1000/2443, Loss: 0.02616678923368454\
+Epoch: 10/100, Batch: 2000/2443, Loss: 0.030620329082012177\
+Epoch: 10/100, Average Loss: 0.028986947141310206\
+Saving the new best model at epoch 10 with loss 0.03039463090693127\
+Epoch: 11/100, Batch: 1000/2443, Loss: 0.02239631861448288\
+Epoch: 11/100, Batch: 2000/2443, Loss: 0.022068196907639503\
+Epoch: 11/100, Average Loss: 0.028959026392450158\
+Epoch: 12/100, Batch: 1000/2443, Loss: 0.02631133422255516\
+Epoch: 12/100, Batch: 2000/2443, Loss: 0.030004212632775307\
+Epoch: 12/100, Average Loss: 0.029062747073177183\
+Epoch: 13/100, Batch: 1000/2443, Loss: 0.029779739677906036\
+Epoch: 13/100, Batch: 2000/2443, Loss: 0.02946961484849453\
+Epoch: 13/100, Average Loss: 0.02905478291335503\
+Epoch: 14/100, Batch: 1000/2443, Loss: 0.032939597964286804\
+Epoch: 14/100, Batch: 2000/2443, Loss: 0.021195216104388237\
+Epoch: 14/100, Average Loss: 0.02597326731631045\
+Epoch: 15/100, Batch: 1000/2443, Loss: 0.017926853150129318\
+Epoch: 15/100, Batch: 2000/2443, Loss: 0.022197024896740913\
+Epoch: 15/100, Average Loss: 0.021075095764444808\
+Epoch: 16/100, Batch: 1000/2443, Loss: 0.02079816721379757\
+Epoch: 16/100, Batch: 2000/2443, Loss: 0.02013745903968811\
+Epoch: 16/100, Average Loss: 0.020571704282197754\
+Epoch: 17/100, Batch: 1000/2443, Loss: 0.017300428822636604\
+Epoch: 17/100, Batch: 2000/2443, Loss: 0.02275627851486206\
+Epoch: 17/100, Average Loss: 0.01918209086157415\
+Epoch: 18/100, Batch: 1000/2443, Loss: 0.007255158387124538\
+Epoch: 18/100, Batch: 2000/2443, Loss: 0.022329695522785187\
+Epoch: 18/100, Average Loss: 0.0188260933028239\
+Epoch: 19/100, Batch: 1000/2443, Loss: 0.028768155723810196\
+Epoch: 19/100, Batch: 2000/2443, Loss: 0.030699335038661957\
+Epoch: 19/100, Average Loss: 0.02846241736272979\
+Epoch: 20/100, Batch: 1000/2443, Loss: 0.028498560190200806\
+Epoch: 20/100, Batch: 2000/2443, Loss: 0.03386962413787842\
+Epoch: 20/100, Average Loss: 0.029207514457913926\
+Epoch: 21/100, Batch: 1000/2443, Loss: 0.031294599175453186\
+Epoch: 21/100, Batch: 2000/2443, Loss: 0.028299834579229355\
+Epoch: 21/100, Average Loss: 0.029194912455771674\
+Epoch: 22/100, Batch: 1000/2443, Loss: 0.02933545410633087\
+Epoch: 22/100, Batch: 2000/2443, Loss: 0.029961861670017242\
+Epoch: 22/100, Average Loss: 0.0291997646989939\
+Epoch: 23/100, Batch: 1000/2443, Loss: 0.02750750258564949\
+^CTraceback (most recent call last):\
+  File "/home/ubuntu/Train_Evaluate_Test_AWS.py", line 123, in <module>\
+    outputs = model(batch_X.float()).squeeze(1)\
+  File "/opt/conda/envs/pytorch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl\
+    return forward_call(*args, **kwargs)\
+  File "/home/ubuntu/Train_Evaluate_Test_AWS.py", line 58, in forward\
+    out = self.transformer(x, tgt=tgt)\
+  File "/opt/conda/envs/pytorch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl\
+    return forward_call(*args, **kwargs)\
+  File "/opt/conda/envs/pytorch/lib/python3.10/site-packages/torch/nn/modules/transformer.py", line 146, in forward\
+    output = self.decoder(tgt, memory, tgt_mask=tgt_mask, memory_mask=memory_mask,\
+  File "/opt/conda/envs/pytorch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl\
+    return forward_call(*args, **kwargs)\
+  File "/opt/conda/envs/pytorch/lib/python3.10/site-packages/torch/nn/modules/transformer.py", line 369, in forward\
+    output = mod(output, memory, tgt_mask=tgt_mask,\
+  File "/opt/conda/envs/pytorch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl\
+    return forward_call(*args, **kwargs)\
+  File "/opt/conda/envs/pytorch/lib/python3.10/site-packages/torch/nn/modules/transformer.py", line 717, in forward\
+    x = self.norm2(x + self._mha_block(x, memory, memory_mask, memory_key_padding_mask, memory_is_causal))\
+  File "/opt/conda/envs/pytorch/lib/python3.10/site-packages/torch/nn/modules/transformer.py", line 735, in _mha_block\
+    x = self.multihead_attn(x, mem, mem,\
+  File "/opt/conda/envs/pytorch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl\
+    return forward_call(*args, **kwargs)\
+  File "/opt/conda/envs/pytorch/lib/python3.10/site-packages/torch/nn/modules/activation.py", line 1205, in forward\
+    attn_output, attn_output_weights = F.multi_head_attention_forward(\
+  File "/opt/conda/envs/pytorch/lib/python3.10/site-packages/torch/nn/functional.py", line 5373, in multi_head_attention_forward\
+    attn_output = scaled_dot_product_attention(q, k, v, attn_mask, dropout_p, is_causal)\
+KeyboardInterrupt\
+\
+(pytorch) ubuntu@ip-172-31-47-192:~$ python  Train_Evaluate_Test_AWS.py\
+Device: cuda\
+Importing and sorting: Done\
+/home/ubuntu/Train_Evaluate_Test_AWS.py:84: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /opt/conda/conda-bld/pytorch_1686274778240/work/torch/csrc/utils/tensor_new.cpp:245.)\
+  X = torch.tensor(X, dtype=torch.float32).to(device)\
+Instantiating the Transformer Model: Done\
+Training Transformer started:\
+^CTraceback (most recent call last):\
+  File "/home/ubuntu/Train_Evaluate_Test_AWS.py", line 125, in <module>\
+    loss.backward()\
+  File "/opt/conda/envs/pytorch/lib/python3.10/site-packages/torch/_tensor.py", line 487, in backward\
+    torch.autograd.backward(\
+  File "/opt/conda/envs/pytorch/lib/python3.10/site-packages/torch/autograd/__init__.py", line 200, in backward\
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass\
+KeyboardInterrupt\
+\
+(pytorch) ubuntu@ip-172-31-47-192:~$ python  Train_Evaluate_Test_AWS.py\
+Device: cuda\
+Importing and sorting: Done\
+Instantiating the Transformer Model: Done\
+Training Transformer started:\
+Epoch: 1/100, Average Loss: 0.0039947000290421085\
+Epoch: 2/100, Average Loss: 0.0003910204189732984\
+Epoch: 3/100, Average Loss: 0.0002118548925382423\
+Epoch: 4/100, Average Loss: 0.00019142094398318815\
+Epoch: 5/100, Average Loss: 0.0005023088737295773\
+Saving the new best model at epoch 5 with loss 0.0001230977870892911\
+Epoch: 6/100, Average Loss: 0.00038264575300886797\
+Epoch: 7/100, Average Loss: 0.00019286711083469106\
+Epoch: 8/100, Average Loss: 0.0005173528680292292\
+Epoch: 9/100, Average Loss: 0.00014065982433970152\
+Epoch: 10/100, Average Loss: 0.00014891491718542845\
+Saving the new best model at epoch 10 with loss 3.079713366179657e-05\
+Epoch: 11/100, Average Loss: 0.00010445541142560802\
+Epoch: 12/100, Average Loss: 0.008487112282750647\
+Epoch: 13/100, Average Loss: 0.02908081913365389\
+Epoch: 14/100, Average Loss: 0.029200693426216864\
+Epoch: 15/100, Average Loss: 0.029191264461053478\
+Epoch: 16/100, Average Loss: 0.029186823777015758\
+Epoch: 17/100, Average Loss: 0.029182712709499927\
+Epoch: 18/100, Average Loss: 0.029181874779175405\
+^Z\
+[2]+  Stopped                 python Train_Evaluate_Test_AWS.py\
+(pytorch) ubuntu@ip-172-31-47-192:~$ pwd\
+/home/ubuntu\
+(pytorch) ubuntu@ip-172-31-47-192:~$ }
