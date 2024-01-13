@@ -18,12 +18,12 @@
 
 <img src="image/README/paper_account_profit_1.png" alt="Example Image" width="500"/>
 
+<img src="image/README/paper_account_profit_2.png" alt="Example Image" width="500"/>
 
-![Example Image](image/README/paper_account_profit_2.png)
+<img src="image/README/paper_account_profit_3.png" alt="Example Image" width="500"/>
 
-![Example Image](image/README/paper_account_profit_3.png)
+<img src="image/README/simulation_result.png" alt="Example Image" width="500"/>
 
-![Example Image](image/README/simulation_result.png)
 
 * **Examples of GUI for history of orders (all orders and filled orders here):**
 
