@@ -1,7 +1,35 @@
 # Trading-Software
 <img width="1298" alt="image" src="https://github.com/FaridSoroush/Trading-Software/assets/45682607/b11a8aa1-d32c-472a-929a-fbe583a44b83">
 
+![Example Image](Plots/Screenshot 2024-01-13 at 11.43.29 AM.png)
+
+![Example Image](Plots/Screenshot 2024-01-13 at 11.45.55 AM.png)
+
+![Example Image](Plots/Screenshot 2024-01-13 at 11.48.50 AM.png)
+
+![Example Image](Plots/Screenshot 2024-01-13 at 11.52.06 AM.png)
+
 ![Example Image](Plots/all_orders_last_run.png)
+
+![Example Image](Plots/filled_orders_short_term.png)
+
+![Example Image](Plots/indicators.png)
+
+![Example Image](Plots/order_history.png)
+
+![Example Image](Plots/paper account profit 1.png)
+
+![Example Image](Plots/paper account profit 2.png)
+
+![Example Image](Plots/paper account profit 3.png)
+
+![Example Image](Plots/prediction_local.png)
+
+![Example Image](Plots/prediction_local_and_long_term.png)
+
+![Example Image](Plots/prediction_long_term.png)
+
+![Example Image](Plots/short_term_orders.png)
 
 
 # Data
