@@ -1,7 +1,7 @@
 # Trading-Software
 <img width="1298" alt="image" src="https://github.com/FaridSoroush/Trading-Software/assets/45682607/b11a8aa1-d32c-472a-929a-fbe583a44b83">
 
-![Example Image](plots/all_orders_last_run.png)
+![Example Image](Plots/all_orders_last_run.png)
 
 
 # Data
