@@ -1,0 +1,8 @@
+
+*.csv
+*.pkl
+Prediction_Model/Transformer/AWS_Archieve/AWS_10_6_6_100_128_0.0005/LINUX_PACKAGES_LIST
+Prediction_Model/Transformer/AWS_Archieve/AWS_10_6_6_100_128_0.0005/LINUX_PACKAGES_LICENSES
+Prediction_Model/Transformer/AWS_Archieve/AWS_10_6_12_100_128_0.001/LINUX_PACKAGES_LICENSES
+Prediction_Model/Transformer/AWS_Archieve/AWS_10_6_6_100_128_0.0005/BUILD_FROM_SOURCE_PACKAGES_LICENCES
+Prediction_Model/Transformer/AWS_Archieve/AWS_10_6_12_100_128_0.001/LINUX_PACKAGES_LIST
