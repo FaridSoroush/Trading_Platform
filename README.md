@@ -1,13 +1,13 @@
 # Trading-Software
 <img width="1298" alt="image" src="https://github.com/FaridSoroush/Trading-Software/assets/45682607/b11a8aa1-d32c-472a-929a-fbe583a44b83">
 
-![Example Image](Plots/Screenshot 2024-01-13 at 11.43.29 AM.png)
+![Example Image](Plots/GUI.png)
 
-![Example Image](Plots/Screenshot 2024-01-13 at 11.45.55 AM.png)
+![Example Image](Plots/GUI1.png)
 
-![Example Image](Plots/Screenshot 2024-01-13 at 11.48.50 AM.png)
+![Example Image](Plots/GUI3.png)
 
-![Example Image](Plots/Screenshot 2024-01-13 at 11.52.06 AM.png)
+![Example Image](Plots/simulation_result.png)
 
 ![Example Image](Plots/all_orders_last_run.png)
 
@@ -17,11 +17,11 @@
 
 ![Example Image](Plots/order_history.png)
 
-![Example Image](Plots/paper account profit 1.png)
+![Example Image](Plots/paper_account_profit_1.png)
 
-![Example Image](Plots/paper account profit 2.png)
+![Example Image](Plots/paper_account_profit_2.png)
 
-![Example Image](Plots/paper account profit 3.png)
+![Example Image](Plots/paper_account_profit_3.png)
 
 ![Example Image](Plots/prediction_local.png)
 
