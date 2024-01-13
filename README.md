@@ -33,8 +33,6 @@
 
 <img src="image/README/GUI.png" alt="Example Image" width="850"/>
 
-<img src="image/README/GUI1.png" alt="Example Image" width="850"/>
-
 <img src="image/README/GUI3.png" alt="Example Image" width="850"/>
 
 # Data
