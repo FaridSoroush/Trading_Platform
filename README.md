@@ -8,6 +8,12 @@
 
 ![Example Image](Plots/indicators.png)
 
+* **Example of modeling result different time frames:**
+
+![Example Image](image/README/prediction_local_and_long_term.png)
+
+![Example Image](image/README/prediction_long_term.png)
+
 * **Result of trading simulation:**
 
 ![Example Image](image/README/paper_account_profit_1.png)
@@ -15,6 +21,8 @@
 ![Example Image](image/README/paper_account_profit_2.png)
 
 ![Example Image](image/README/paper_account_profit_3.png)
+
+![Example Image](image/README/simulation_result.png)
 
 * **Examples of GUI for history of orders (all orders and filled orders here):**
 
@@ -30,7 +38,7 @@
 
 ![Example Image](image/README/GUI3.png)
 
-![Example Image](image/README/simulation_result.png)
+
 
 # Data
 
