@@ -1,3 +1,5 @@
+# Trading Platform
+
 ## Data
 
 - BTC, USDT (1:1 with USD)
