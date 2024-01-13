@@ -1,46 +1,23 @@
 # Trading-Software
 
+* **Main components of the system:**
 
 ![1705182855841](image/README/1705182855841.png)
 
+* **Examples of technical trading indicators:**
 
+![Example Image](Plots/indicators.png)
 
-![Example Image](Plots/GUI.png)
+* **Result of trading simulation:**
 
-![Example Image](Plots/GUI1.png)
-
-![Example Image](Plots/GUI3.png)
-
-![Example Image](Plots/simulation_result.png)
+* **Examples of GUI for history of orders (all orders and filled orders here):**
 
 ![Example Image](Plots/all_orders_last_run.png)
 
 ![Example Image](Plots/filled_orders_short_term.png)
 
-![Example Image](Plots/indicators.png)
+* **Example of GUI for live trading:**
 
-![Example Image](Plots/order_history.png)
-
-![Example Image](Plots/paper_account_profit_1.png)
-
-![Example Image](Plots/paper_account_profit_2.png)
-
-![Example Image](Plots/paper_account_profit_3.png)
-
-
-![Example Image](https://file+.vscode-resource.vscode-cdn.net/Users/faridsoroush/Documents/GitHub/Trading-Platform/Plots/prediction_local.png)
-
-
-
-![Example Image](Plots/prediction_local_and_long_term.png)
-
-
-
-![Example Image](Plots/prediction_long_term.png)
-
-
-
-![Example Image](Plots/short_term_orders.png)
 
 # Data
 
