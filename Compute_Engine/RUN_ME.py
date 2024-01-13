@@ -28,6 +28,6 @@ print("file excuted")
 while True:
     # Check every 10 minutes
     if not check_if_process_running("temp_printer.py"):
-        run_process("/Users/faridsoroush/Documents/GitHub/Trading-Software/Compute_Engine/Deployment_main.py")
+        run_process("/Trading-Software/Compute_Engine/Deployment_main.py")
 
     time.sleep(checking_time) 

@@ -6,8 +6,8 @@ import requests
 import time
 import csv
 
-api_key = 'ZxOQ7t6879VgwLQzhxIixxB39iIAUX2355YMjFu1yQzDgUmpquOq3Gyb3XESVJBs'
-secret_key = 'tjuC6WfLgKNabCbC21KGJq0uF3XjEzvuXVBU1rPuW7FIrbra4IfOfw4pqILLHT5i'
+api_key = ''
+secret_key = ''
 
 api_url = "https://api.binance.us"
 

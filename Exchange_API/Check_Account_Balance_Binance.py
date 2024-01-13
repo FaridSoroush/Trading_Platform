@@ -8,7 +8,7 @@ import json
 import csv
 
 # Path to the directory containing the CSV files
-csv_file_path = "/Users/faridsoroush/Documents/GitHub/Trading-Software/Exchange_API/api_keys.csv"
+csv_file_path = "/Trading-Software/Exchange_API/api_keys.csv"
 
 # Read the data from the CSV file
 with open(csv_file_path, 'r') as csvfile:

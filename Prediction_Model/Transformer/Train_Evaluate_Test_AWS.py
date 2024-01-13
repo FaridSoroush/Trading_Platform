@@ -39,7 +39,7 @@ print("Device:", device)
 if device == torch.device("cuda"):
     input_filename = "BTCUSDT4Y1MKline_cleaned_24features_nSteps"+str(n_steps)+".csv"
 elif device == torch.device("cpu"):
-    os.chdir('/Users/faridsoroush/Documents/GitHub/Trading-Software/Prediction_Model/Transformer/')
+    os.chdir('/Trading-Software/Prediction_Model/Transformer/')
     # print("Current working directory: {0}".format(os.getcwd()))
     input_filename = "BTCUSDT4Y1MKline_cleaned_24features_nSteps"+str(n_steps)+".csv"
 else:

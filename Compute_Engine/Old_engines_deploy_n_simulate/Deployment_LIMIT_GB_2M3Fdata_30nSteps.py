@@ -44,8 +44,8 @@ predicting_index = 1
 delta_t_trading = 60 - 1.65 # in seconds, 1.65 is the average time it takes to go over the code
 
 # Exchange API
-api_key = 'ZxOQ7t6879VgwLQzhxIixxB39iIAUX2355YMjFu1yQzDgUmpquOq3Gyb3XESVJBs'
-secret_key = 'tjuC6WfLgKNabCbC21KGJq0uF3XjEzvuXVBU1rPuW7FIrbra4IfOfw4pqILLHT5i'
+api_key = ''
+secret_key = ''
 api_url = "https://api.binance.us"
 uri_path = "/api/v3/account"
 uri_path_market = "/api/v3/klines"
