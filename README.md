@@ -10,9 +10,9 @@
 
 * **Example of modeling result different time frames:**
 
-![Example Image](image/README/prediction_local_and_long_term.png)
+<img src="image/README/prediction_local_and_long_term.png" alt="Example Image" width="500"/>
 
-![Example Image](image/README/prediction_long_term.png)
+<img src="image/README/prediction_long_term.png" alt="Example Image" width="500"/>
 
 * **Result of trading simulation:**
 
